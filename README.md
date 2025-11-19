@@ -11,7 +11,7 @@ It is built using basic HTML and CSS, focusing on clean design and responsive la
 - Responsive sections: About, Skills, Projects, Contact  
 - Custom color palette  
 - Smooth internal navigation  
-- LinkedIn integration  
+- LinkedIn and GitHub integration  
 
 💻 Tech Used
 - HTML5  
