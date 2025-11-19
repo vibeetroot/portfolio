@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chhavi Mishra | Portfolio</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Inter", sans-serif;
+            background: #0A192F;
+            color: #E6F1FF;
+        }
+
+        h1, h2, h3 {
+            margin: 0;
+            font-weight: 600;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        nav {
+            background: #0A192F;
+            padding: 15px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #64FFDA;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        nav h2 {
+            color: #64FFDA;
+            font-size: 1.4rem;
+        }
+
+        nav a {
+            margin-left: 20px;
+            font-weight: 500;
+            color: #E6F1FF;
+            transition: 0.2s;
+        }
+
+        nav a:hover {
+            color: #64FFDA;
+        }
+
+        .aboutt {
+            height: 70vh;
+            background: linear-gradient(120deg, #112240, #0A192F);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .aboutt h1 {
+            font-size: 3.2rem;
+            color: #64FFDA;
+        }
+
+        .aboutt p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+            color: #E6F1FF;
+        }
+
+        .linkedin-box {
+            background: #64FFDA;
+            color: #0A192F;
+            padding: 12px 18px;
+            border-radius: 10px;
+            display: inline-block;
+            margin-top: 15px;
+            font-weight: 600;
+            transition: 0.2s;
+        }
+
+        .linkedin-box:hover {
+            background: #E6F1FF;
+            color: #0A192F;
+        }
+
+        section {
+            padding: 60px 40px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .intro, .card {
+            background: #112240;
+            padding: 25px;
+            margin: 20px 0;
+            border-radius: 12px;
+            border-left: 5px solid #64FFDA;
+        }
+
+        .skillzz, .toolss {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .skill, .tool {
+            padding: 8px 15px;
+            background: #0A192F;
+            border-radius: 20px;
+            font-size: 14px;
+            color: #64FFDA;
+            border: 1px solid #64FFDA;
+        }
+
+        footer {
+            background: #0A192F;
+            padding: 20px;
+            text-align: center;
+            margin-top: 50px;
+            border-top: 2px solid #64FFDA;
+            color: #E6F1FF;
+        }
+        
+        .innn {
+            background: #0A192F;
+            padding: 20px;
+            text-align: center;
+            margin-top: 50px;
+            border-top: 2px solid #64FFDA;
+            color: #E6F1FF;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            scrollbar-color: #64FFDA;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <h2>Chhavi Mishra</h2>
+        <div>
+            <a href="#about">About</a>
+            <a href="#skillzz">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <div class="aboutt">
+        <div>
+            <h1>Hello! I'm Chhavi</h1>
+            <p>| Student | Tech Enthusiast | Development & DSA |</p>
+            
+            <a class="linkedin-box" href="https://www.linkedin.com/in/chhavi1729" target="_blank">
+                LinkedIn
+            </a>
+        </div>
+    </div>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="intro">
+            <p>
+                I'm Chhavi Mishra from Gorakhpur, Uttar Pradesh, currently in my 2nd year pursuing Mechanical Engineering at MNIT Jaipur.
+                I enjoy logic building, exploring new ideas, and learning continuously. I work on developing my technical and interpersonal skills through projects, reading, and extracurricular activities.
+                My interests include statistics, OOP, DSA, and web development.
+                I am also curious about AI, deep learning, and fintech.
+            </p>
+        </div>
+    </section>
+
+    <section id="skillzz">
+        <h2>Skills</h2>
+        <div class="card skillzz">
+            <span class="skill">C++</span>
+            <span class="skill">Python</span>
+            <span class="skill">Java</span>
+            <span class="skill">HTML</span>
+            <span class="skill">CSS</span>
+            <span class="skill">Problem Solving</span>
+            <span class="skill">Basic DSA</span>
+            <span class="skill">Creative Thinking</span>
+            <span class="skill">Leadership</span>
+            <span class="skill">Communication</span>
+        </div>
+    </section>
+
+    <section id="tools">
+        <h2>Tools</h2>
+        <div class="card toolss">
+            <span class="tool">VS Code</span>
+            <span class="tool">Git</span>
+            <span class="tool">GitHub</span>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="card">
+            <ul>
+                <li><h3>Personal Portfolio Website</h3></li>
+            </ul>
+            <p>A simple personal portfolio showcasing my skills, education, and projects.
+                Built to learn basic web development and understand layout design.
+            </p>
+        </div>
+
+        <div class="card">
+            <ul>
+                <li><h3>Python Expense Tracker</h3></li>
+            </ul>
+            <p>A command-line expense tracker built in Python to practice file handling, loops, and clean code structure.
+                Stores user expenses in a text file and provides total calculations.
+            </p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="card">
+            <p>Email: <b>chhavimishra.1729@gmail.com</b></p>
+            <p>Phone: <b>9580848425</b></p>
+          <a href="https://www.linkedin.com/in/chhavi1729" target="_blank"
+          style="color:#64FFDA; font-weight:600;">
+                LinkedIn &rarr;
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        © 2025 Chhavi Mishra
+    </footer>
